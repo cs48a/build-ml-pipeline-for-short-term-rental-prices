@@ -3,15 +3,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - mlflow=2.0.1
-  - ipython=7.21.0
-  - notebook=6.2.0
-  - jupyterlab=3.0.10
-  - cookiecutter=1.7.2
-  - hydra-core=1.0.6
-  - matplotlib=3.3.4
-  - pandas=1.2.3
-  - git=2.30.2
-  - pip=20.3.3
+  - conda-forge::mlflow-skinny=2.2.2
+  - conda-forge::ipython=7.21.0
+  - conda-forge::notebook=6.2.0
+  - conda-forge::jupyterlab=3.0.10
+  - conda-forge::cookiecutter=1.7.2
+  - conda-forge::hydra-core=1.0.6
+  - conda-forge::matplotlib=3.3.4
+  - conda-forge::pandas=1.2.3
+  - conda-forge::git=2.30.2
+  - conda-forge::pip=20.3.3
   - pip:
       - wandb==0.13.7
